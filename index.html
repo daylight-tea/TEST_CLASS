@@ -43,6 +43,18 @@
 </table>
 </div>
 
+<!-- 教室位置彈出視窗 -->
+<div id="locationModal" class="modal">
+    <div class="modal-content">
+        <h3 id="modalCourse">課程名稱</h3>
+        <p><strong>上課地點：</strong><span id="modalRoom"></span></p>
+        <div class="route-info">
+            <strong>🚶 路線走法：</strong>
+            <p id="modalRoute" style="margin-top: 5px;"></p>
+        </div>
+        <button class="close-btn" onclick="closeModal()">關閉</button>
+    </div>
+</div>
 
 
 
@@ -53,5 +65,7 @@
     <!-- 引入外部 JavaScript 腳本檔 -->
     <script src="main.js"></script>
     
+
+
 </body>
 </html>
